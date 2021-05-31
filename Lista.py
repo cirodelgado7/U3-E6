@@ -128,9 +128,11 @@ class Lista(object):
         while aux is not None:
             if minimo > aux.getDato().getPrecioBase():
                 minimo = aux.getDato().getPrecioBase()
-                auto = aux.getDato()
+                auto = aux
                 aux = aux.getSig()
-        print(auto)
+            else:
+                aux = aux.getSig()
+        print(auto.getDato())
 
     def toJSON(self):
         return dict(
