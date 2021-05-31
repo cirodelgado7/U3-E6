@@ -28,7 +28,7 @@ class AutoNuevo(Auto):
         return cls.marca
 
     def getImporteVenta(self):
-        if self.__vesion.lower() == "full":
+        if self.__vesion == "full":
             importe = self.getPrecioBase() + self.getPrecioBase() * 0.12
         else:
             importe = self.getPrecioBase() + self.getPrecioBase() * 0.1
