@@ -39,11 +39,11 @@ class AutoUsado(Auto):
     def getPatente(self):
         return self.__patente
 
-    def getImporteVenta(self):
+        def getImporteVenta(self):
         if self.__km < 100000:
-            importe = self.getPrecioBase()() - (date.today().year - self.__año) * 0.01 * self.getPrecioBase()
+            importe = self.getPrecioBase() - (int(date.today().year) - int(self.__año)) * 0.01 * self.getPrecioBase()
         else:
-            importe = self.getPrecioBase() - (date.today().year - self.__año) * 0.02 * self.getPrecioBase()
+            importe = self.getPrecioBase() - (int(date.today().year) - int(self.__año)) * 0.02 * self.getPrecioBase()
         return importe
 
     def obtenerVehiculo(self):
