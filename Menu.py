@@ -69,4 +69,4 @@ class Menu:
         lista.mostrarTodos()
 
     def salir(self, lista):
-        print('Salir')
+        print('\n Los datos fueron guardados en el archivo vehiculos.json')
