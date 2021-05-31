@@ -97,7 +97,7 @@ class Lista(object):
             indice = int(input("Indice de la lista: "))
             aux = self.__comienzo
             i = 0
-            while i < indice and aux is None:
+            while i < indice and aux is not None:
                 aux = aux.getSig()
                 i += 1
             if aux is None:
