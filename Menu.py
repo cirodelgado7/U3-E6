@@ -66,7 +66,7 @@ class Menu:
 
     def opcion6(self, lista):
         print('\n6. Mostrar datos de todos los Autos')
-        lista.mostrarDatos()
+        lista.mostrarTodos()
 
     def salir(self, lista):
         print('Salir')
