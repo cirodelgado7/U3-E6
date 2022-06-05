@@ -1,0 +1,46 @@
+{
+    "__class__": "Lista",
+    "Nodos": [
+        {
+            "__class__": "Lavarropa",
+            "__atributos__": {
+                "marca": "Drean",
+                "modelo": "Tk3000",
+                "precioBase": 30000,
+                "color": "Verde",
+                "paisFabricacion": "Argentina",
+                "capacidadLavado": 9,
+                "velocidadCentrifugado": "30000",
+                "cantidadProgramas": "10",
+                "tipoCarga": "Superior"
+            }
+        },
+        {
+            "__class__": "Televisor",
+            "__atributos__": {
+                "marca": "Philips",
+                "modelo": "T4300",
+                "precioBase": 100000,
+                "color": "Negro",
+                "paisFabricacion": "Argentina",
+                "tipoPantalla": "LED",
+                "pulgadas": "32",
+                "tipoDefinicion": "HD",
+                "conexionInternet": "True"
+            }
+        },
+        {
+            "__class__": "Heladera",
+            "__atributos__": {
+                "marca": "GAFA",
+                "modelo": "HGF357AFP",
+                "precioBase": 75499,
+                "color": "Gris Grafito",
+                "paisFabricacion": "Argentina",
+                "capacidad": "287",
+                "frezzer": "True",
+                "ciclica": "True"
+            }
+        }
+    ]
+}
